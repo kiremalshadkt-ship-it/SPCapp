@@ -80,7 +80,7 @@ soundpc-website-main/
 
 ## 📝 Template Features
 - **Inheritance**: All pages inherit from base.html
-- **CSRF Protection**: All forms include {% csrf_token %}
+- **CSRF Protection**: All forms include {% raw %}{% csrf_token %}{% endraw %}
 - **Error Handling**: Forms display validation errors
 - **Responsive**: Mobile-first responsive design
 - **Authentication**: Display user info when logged in
